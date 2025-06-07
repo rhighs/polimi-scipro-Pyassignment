@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "assignment"
+version = "0.1.0"
+description = ""
+authors = ["Roberto Montalti <rmontalti@technogym.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+biopython = "^1.85"
+numpy = "^2.2.6"
+
+[tool.poetry.scripts]
+nw = "assignment.nw:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
